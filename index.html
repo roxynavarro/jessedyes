@@ -57,6 +57,10 @@
 						</ul>
 					</nav>-->
 
+					<audio controls>
+						<source src="jessedyes.mp3" type="audio/mpeg">
+					</audio>
+
 			</div>
 
 		<!-- Scripts -->
@@ -67,6 +71,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+							window.addEventListener("DOMContentLoaded", event => {
+							const audio = document.querySelector("audio");
+							audio.volume = 0.2;
+							audio.play();
+						});
+
+			</script>
 
 	</body>
 	<style>
@@ -81,4 +93,5 @@
 			h2 { font-style: italic;}
 
 	</style>
+
 </html>
