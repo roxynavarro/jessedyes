@@ -340,7 +340,7 @@
 						<!--<iframe src="jessedyes.mp3" allow="autoplay" id="audio"></iframe>
 						<audio id="player" autoplay controls><source src="JessEdYes.mp3" type="audio/mp3"></audio>-->
 
-						<audio controls autoplay>
+						<audio id="auto" controls autoplay>
 						  <source src="jessedyes.mp3" type="audio/mpeg">
 						</audio>
 					</div>
@@ -377,6 +377,9 @@
 							audio.play();
 						});
 
+			</script>
+			<script>
+						document.getElementById('auto').play();
 			</script>
 
 	</body>
